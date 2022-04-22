@@ -16,7 +16,7 @@ df = pd.read_csv(csv_path)
 # %%
 df=df[5::6]
 df
-#%%
+#%%ù
 df.index = pd.to_datetime(df['Date Time'], format='%d.%m.%Y %H:%M:%S')
 df[:26]
 # %%
